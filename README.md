@@ -2,9 +2,15 @@
 
 NLP course group project resulted in a core-word extraction analyzer that accepts Tagalog -UM verbs as inputs and analyzes them to produce the dictionary form of the word. The system was fed with a file containing 842 Tagalog -UM verbs. The results produced by the analysis using Affix Removal and Rule-based Methods shows 97.86% accuracy.
 
-# Installation:
-# NLTK
-# -- pip install numpy
-# -- pip install nltk
+Installation:<br />
+-- pip install numpy<br />
+-- pip install nltk<br />
 
-[Paper](https://nationalueduph-my.sharepoint.com/:w:/g/personal/legaspimj_students_nu-laguna_edu_ph/EVWRGcLBEaBKrIR9dfCTjxkBF5WZKLZ4VLtT_E70ylGWYw?e=Nr1MHK)
+## Results and Discussion
+The system was fed with 842 Tagalog -UM verbs created by the researchers. The results produced by the analysis is compared to the expected output. The total correct outcomes is divided to the total words in the corpus. Table 1 shows 97.86 percent accuracy by using Affix Removal and Rule-based Method for determining the base form of Tagalog -UM verbs with a 2.14 percent margin of error.
+
+Partly, some of the errors were caused by typographical inputs. However, most of the errors were caused by words with first two duplicated letters (eg. “bumaba”, “baba”, “ba”). By refining the rule-based method, many of these type of errors will be considerably reduced.
+
+## Conclusion and Future Works
+The system was tested with 842 -UM verbs created by the researchers conjugated in two different tenses (eg. "lumulundag" - present tense, "lumundag" - past tense). The accuracy rate is expected to improve when certain rules are refined. The researchers will also add more types of verbs such as -IN, -AN, MA-, NAG-, and MAG-. The corpus will also be increased for future testing and data mining implementation.
+
