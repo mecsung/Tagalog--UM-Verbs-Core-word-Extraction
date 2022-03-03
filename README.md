@@ -6,6 +6,8 @@ Installation:<br />
 -- pip install numpy<br />
 -- pip install nltk<br />
 
+![](https://github.com/mecsung/Tagalog--UM-Verbs-Core-word-Extraction/blob/main/um.gif)
+
 ## Results and Discussion
 The system was fed with 842 Tagalog -UM verbs created by the researchers. The results produced by the analysis is compared to the expected output. The total correct outcomes is divided to the total words in the corpus. Table 1 shows 97.86 percent accuracy by using Affix Removal and Rule-based Method for determining the base form of Tagalog -UM verbs with a 2.14 percent margin of error.
 
